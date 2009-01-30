@@ -1,3 +1,0 @@
-[submodule "common_css"]
-	path = common_css
-	url = git://github.com/reidab/osbp_styles.git
