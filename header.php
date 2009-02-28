@@ -26,11 +26,12 @@
 
 		<div id="menu">
 			<ul>
+			   <li <?php print (is_page('about') ? 'class="current_page_item"' : ''); ?>><a href='/about/' title='About' class=''>About</a></li>
 				<li <?php print (is_page('attend') ? 'class="current_page_item"' : ''); ?>><a href='/attend/' title='Attend' class=''>Attend</a></li>
 				<li class="page_item"><a href='/proposals/' title='Proposals' class=''>Proposals</a></li>
 				<li <?php print (is_page('volunteer') ? 'class="current_page_item"' : ''); ?>><a href="/volunteer/" title="Volunteer">Get Involved</a></li>
 				<li <?php print (is_page('sponsors') ? 'class="current_page_item"' : ''); ?>><a href="/sponsors/" title="Sponsors">Sponsors</a></li>
-				<li <?php print (!is_page(array('attend','volunteer','sponsors')) ? 'class="current_page_item"' : ''); ?>><a href="/">Blog</a></li>
+				<li <?php print (!is_page(array('about','attend','volunteer','sponsors')) ? 'class="current_page_item"' : ''); ?>><a href="/">Blog</a></li>
 			</ul>
 		</div>
 
