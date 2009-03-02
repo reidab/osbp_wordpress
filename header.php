@@ -38,6 +38,6 @@
 		<div id='menu-sidebar-background'></div>
 		<div id='menu-sidebar-nav'>
 			<a href='/attend' title='Register Now' class='register-now-button'>Register Now</a>
-			<a href='/proposals' title='Submit a Proposal' class='submit-a-proposal-button'>Submit a Proposal</a>
+			<a href='/events/2009/proposals/new' title='Submit a Proposal' class='submit-a-proposal-button'>Submit a Proposal</a>
 		</div>
 	</div><!-- #access -->
