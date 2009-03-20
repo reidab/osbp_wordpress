@@ -33,7 +33,24 @@
 				<li <?php print (is_page('sponsors') ? 'class="current_page_item"' : ''); ?>><a href="/sponsors/" title="Sponsors">Sponsors</a></li>
 				<li <?php print (!is_page(array('about','attend','volunteer','sponsors')) ? 'class="current_page_item"' : ''); ?>><a href="/">Blog</a></li>
 			</ul>
-		</div>
+      </div>
+      <?php
+		global $wp_query;
+
+      if( empty($wp_query->post->post_parent) ) {
+         $parent = $wp_query->post->ID;
+      } else {
+         $parent = $wp_query->post->post_parent;
+      } ?>
+      <?php if(wp_list_pages("title_li=&child_of=$parent&echo=0" )): ?>
+      <div id="subnav" class='navbar'>
+         <ul>
+            <?php wp_list_pages("title_li=&child_of=$parent" ); ?>
+         </ul>
+         <div id='subnav-sidebar-background'></div>
+      </div>
+      <?php endif; ?>
+
 
 		<div id='menu-sidebar-background'></div>
 		<div id='menu-sidebar-nav'>
