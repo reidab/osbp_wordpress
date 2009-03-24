@@ -38,7 +38,7 @@ Template Name: Front Page
             </div>
             <div class='submit-callout'>
                Proposals are due <strong>March 31</strong>.
-               <a href='/attend' class='propose-button'>Submit Yours Now</a>
+               <a href='/call-for-proposals' class='propose-button'>Submit Yours Now</a>
             </div>
          </div>
          <div id="frontpage_content">
