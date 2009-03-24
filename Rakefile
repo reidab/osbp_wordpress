@@ -1,5 +1,5 @@
 host = 'opensourcebridge.org'
-path = '/var/www/bridgepdx_wordpress/wp-content/themes/osbp_wordpress_theme/'
+path = '/var/www/bridgepdx_wordpress/wp-content/themes/osbp_wordpress_theme_v3/'
 
 desc "Deploys common style files using rsync"
 task :deploy do
