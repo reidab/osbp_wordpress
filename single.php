@@ -52,7 +52,7 @@
 <?php comments_template() ?>
 
 		</div><!-- #content -->
+		<?php get_sidebar() ?>
 	</div><!-- #container -->
 
-<?php get_sidebar() ?>
 <?php get_footer() ?>
