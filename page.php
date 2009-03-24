@@ -6,7 +6,9 @@
 <?php the_post() ?>
 
 			<div id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
+				<?php if(!empty($wp_query->post->post_parent)) { ?>
 				<h2 class="entry-title"><?php the_title() ?></h2>
+				<?php } ?>
 				<div class="entry-content">
 <?php the_content() ?>
 

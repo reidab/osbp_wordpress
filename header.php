@@ -27,38 +27,42 @@
 		</div>
 	</div><!--  #header -->
 
+   <?php
+   
+   global $wp_query;
+
+   if( empty($wp_query->post->post_parent) ) {
+      $parent = $wp_query->post->ID;
+   } else {
+      $parent = $wp_query->post->post_parent;
+   }
+   
+   ?>
+
+
 	<div id="access">
 		<div class="skip-link"><a href="#content" title="<?php _e( 'Skip to content', 'sandbox' ) ?>"><?php _e( 'Skip to content', 'sandbox' ) ?></a></div>
 
 		<div id="menu">
 			<ul>
-			   <li id="menu_first_item" <?php print (is_page('about') ? 'class="current_page_item"' : ''); ?>><a href='/about/' title='About' class=''>About</a></li>
-				<li <?php print (is_page('attend') ? 'class="current_page_item"' : ''); ?>><a href='/attend/' title='Attend' class=''>Attend</a></li>
+			   <li id="menu_first_item" <?php print ($parent==10 ? 'class="current_page_item"' : ''); ?>><a href='/about/' title='About' class=''>About</a></li>
+				<li <?php print ($parent==211 ? 'class="current_page_item"' : ''); ?>><a href='/attend/' title='Attend' class=''>Attend</a></li>
 				<li class="page_item"><a href='/proposals/' title='Proposals' class=''>Proposals</a></li>
-				<li <?php print (is_page('volunteer') ? 'class="current_page_item"' : ''); ?>><a href="/volunteer/" title="Volunteer">Get Involved</a></li>
-				<li <?php print (is_page('sponsors') ? 'class="current_page_item"' : ''); ?>><a href="/sponsors/" title="Sponsors">Sponsors</a></li>
-				<li <?php print (!is_page(array('about','attend','volunteer','sponsors','front-page')) ? 'class="current_page_item"' : ''); ?>><a href="/blog">Blog</a></li>
+				<li <?php print ($parent==56 ? 'class="current_page_item"' : ''); ?>><a href="/volunteer/" title="Volunteer">Get Involved</a></li>
+				<li <?php print ($parent==173 ? 'class="current_page_item"' : ''); ?>><a href="/sponsors/" title="Sponsors">Sponsors</a></li>
+				<li <?php print (!is_page() ? 'class="current_page_item"' : ''); ?>><a href="/blog">Blog</a></li>
 			</ul>
       </div>
       
       <?php
-      if (!is_front_page()) {
-		global $wp_query;
-
-      if( empty($wp_query->post->post_parent) ) {
-         $parent = $wp_query->post->ID;
-      } else {
-         $parent = $wp_query->post->post_parent;
-      } 
+      if (!is_front_page()) { 
       
       if(is_page()) {
          $section_title = get_the_title($parent);
       } else {
          $section_title = "Blog";
       }
-      
       ?>
-      
       
       <div id="subnav" class='navbar'>
          <div class='inner_container'>
@@ -66,6 +70,9 @@
       
       <?php if(wp_list_pages("title_li=&child_of=$parent&echo=0" )): ?>
          <ul>
+            <li class="page_item<?php echo ($wp_query->post->ID == $parent) ? ' current_page_item' : '' ?>">
+               <a href="<?php echo get_permalink($parent) ?>" title="<?php echo $section_title ?>">Overview</a>
+            </li>
             <?php wp_list_pages("title_li=&child_of=$parent" ); ?>
          </ul>
       <?php endif; ?>
