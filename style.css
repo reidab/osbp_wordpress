@@ -152,3 +152,54 @@ div.sidebar input#s {
 
 
 /* @end */
+
+/* @group Front Page */
+
+#frontpage_info strong {
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#frontpage_info h2 {
+	color: #222;
+	font-size: 1.65em;
+}
+
+#frontpage_sidebar {
+	width: 225px;
+	float: left;
+}
+
+#conference-summary {
+	margin-bottom: 2.5em;
+}
+
+#frontpage_content {
+	background: #fff;
+	padding: 15px;
+	width: 510px;
+	margin-left: 240px;
+}
+
+#frontpage_content h4 {
+	font-weight: bold;
+	margin: 0;
+}
+
+#frontpage_callouts {
+	float: right;
+	width: 160px;
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#frontpage_blog {
+	clear: both;
+	background: #fff;
+	padding: 10px;
+	width: 760px;
+}
+
+#frontpage_blog .post {
+	margin: 20px 60px 0 30px;
+}
+
+/* @end */
