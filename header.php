@@ -36,7 +36,7 @@
 				<li class="page_item"><a href='/proposals/' title='Proposals' class=''>Proposals</a></li>
 				<li <?php print (is_page('volunteer') ? 'class="current_page_item"' : ''); ?>><a href="/volunteer/" title="Volunteer">Get Involved</a></li>
 				<li <?php print (is_page('sponsors') ? 'class="current_page_item"' : ''); ?>><a href="/sponsors/" title="Sponsors">Sponsors</a></li>
-				<li <?php print (!is_page(array('about','attend','volunteer','sponsors','front-page')) ? 'class="current_page_item"' : ''); ?>><a href="/">Blog</a></li>
+				<li <?php print (!is_page(array('about','attend','volunteer','sponsors','front-page')) ? 'class="current_page_item"' : ''); ?>><a href="/blog">Blog</a></li>
 			</ul>
       </div>
       
@@ -50,10 +50,10 @@
          $parent = $wp_query->post->post_parent;
       } 
       
-      if(is_single()) {
-         $section_title = "Blog";
-      } elseif(is_page()) {
+      if(is_page()) {
          $section_title = get_the_title($parent);
+      } else {
+         $section_title = "Blog";
       }
       
       ?>
