@@ -18,6 +18,9 @@ Template Name: Front Page
                <li class='pre-bulletted'><a href='http://identi.ca/group/osbridge' title='!osbridge on identi.ca' class='identica chicklet'>identi.ca</a></li>
                <li class='pre-bulletted'><a href='http://www.linkedin.com/groups?home=&amp;gid=1853451' title='Open Source Bridge on LinkedIn' class='linkedin chicklet'>LinkedIn</a></li>
                <li class='pre-bulletted'><a href='http://dplr.it/osbridge09' class='dopplr chicklet'>Add trip to Dopplr</a></li>
+            </ul>
+            <ul>
+               <li class='pre-bulletted'><a href='http://opensourcebridge.org/proposals.atom' class='chicklet rss'>Proposals Feed</a></li>
                <li class='pre-bulletted'>
                   <a href='http://opensourcebridge.org/feed/' title='Open Source Bridge Blog Feed' class='rss chicklet'>Blog feed</a>
                   <p>
@@ -26,8 +29,6 @@ Template Name: Front Page
                      </a>
                   </p>
                </li>
-               <li class='pre-bulletted'><a href='http://opensourcebridge.org/comments/feed/' class='chicklet'>Comments Feed</a></li>
-               <li class='pre-bulletted'><a href='http://opensourcebridge.org/proposals.atom' class='chicklet'>Proposals Feed</a></li>
             </ul>
             
          </div>
