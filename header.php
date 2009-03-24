@@ -8,6 +8,7 @@
 <?php wp_head() // For plugins ?>
 	<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('rss2_url') ?>" title="<?php printf( __( '%s latest posts', 'sandbox' ), wp_specialchars( get_bloginfo('name'), 1 ) ) ?>" />
 	<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('comments_rss2_url') ?>" title="<?php printf( __( '%s latest comments', 'sandbox' ), wp_specialchars( get_bloginfo('name'), 1 ) ) ?>" />
+	<link rel="alternate" type="application/atom+xml" href="/proposals.atom" title="Open Source Bridge Proposal Submissions" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url') ?>" />
 </head>
 
