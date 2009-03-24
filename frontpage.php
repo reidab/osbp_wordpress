@@ -48,7 +48,7 @@ Template Name: Front Page
    </div>
    <div class='inner_container'>
       <div id="frontpage_blog">
-         <h2 id='latest_news_head'>Latest News</h2>
+         <h2 id='latest_news_head'>Latest Blog Post <a href='/blog'>View more posts</a></h2>
             
          <?php query_posts('showposts=1'); ?>
             
