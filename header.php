@@ -1,5 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes() ?>>
+<!--
+
+   ____ ___  ____ _  _    ____ ____ _  _ ____ ____ ____
+   |  | |__] |___ |\ |    [__  |  | |  | |__/ |    |___
+   |__| |    |___ | \|    ___] |__| |__| |  \ |___ |___
+
+   d8888b.  d8888b.  d888888b  d8888b.   d888b   d88888b
+   88  `8D  88  `8D    `88'    88  `8D  88' Y8b  88'
+   88oooY'  88oobY'     88     88   88  88       88ooooo
+   88~~~b.  88`8b       88     88   88  88  ooo  88~~~~~
+   88   8D  88 `88.    .88.    88  .8D  88. ~8~  88.
+   Y8888P'  88   YD  Y888888P  Y8888D'   Y888P   Y88888P
+
+   =====================================================
+   We <3 people who view our site's source code.
+   Use the code 'osbhtml' to get 10% off on registration.
+   =====================================================
+
+-->
 <head profile="http://gmpg.org/xfn/11">
 	<title><?php wp_title( '/', true, 'right' ); ?>Open Source Bridge: The conference for open source citizens / June 17-19, 2009 / Portland, OR</title>
 	<meta http-equiv="content-type" content="<?php bloginfo('html_type') ?>; charset=<?php bloginfo('charset') ?>" />
