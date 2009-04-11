@@ -34,7 +34,7 @@ Template Name: Front Page
          </div>
          <div id="frontpage_callouts">
             <div class='register-callout'>
-               Registration is only <strong>$175</strong> until <strong>April 10</strong>.
+               Registration is only <strong>$250</strong> for three days.
                <a href='/attend' class='register-button'>Register Today</a>
             </div>
          </div>
