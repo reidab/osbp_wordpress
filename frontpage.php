@@ -37,10 +37,6 @@ Template Name: Front Page
                Registration is only <strong>$175</strong> until <strong>April 10</strong>.
                <a href='/attend' class='register-button'>Register Today</a>
             </div>
-            <div class='submit-callout'>
-               Proposals are due <strong>April 10</strong>.
-               <a href='/call-for-proposals' class='propose-button'>Submit Yours Now</a>
-            </div>
          </div>
          <div id="frontpage_content">
             <?php the_content(); ?>
