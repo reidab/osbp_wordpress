@@ -1,6 +1,6 @@
 /* @override 
-	http://dev.reidab.com/wp-content/themes/bridgepdx/style.css
 	http://localhost/web/wordpress/wp-content/themes/bridgepdx/style.css
+	http://opensourcebridge.org/wp-content/themes/osbp_wordpress_theme_v3/style.css
 */
 
 /*
@@ -203,3 +203,14 @@ div.sidebar input#s {
 }
 
 /* @end */
+
+table.sponsors {
+	width: 100%;
+	margin: 1em 0 3em;
+}
+
+table.sponsors td {
+	width: 50%;
+	text-align: center;
+	padding: 1em 0;
+}
