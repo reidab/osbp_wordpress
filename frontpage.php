@@ -41,6 +41,10 @@ Template Name: Front Page
                Rooms start at just <strong>$139</strong>/night.
                <a href='/attend' class='book-room-button'>Book Your Room</a>
             </div>
+            <div class='donate-callout'>
+               Support your open source community.
+               <a href='/sponsors/individual-donations/' class='donate-button'>Donate Now</a>
+            </div>
          </div>
          <div id="frontpage_content">
             <?php the_content(); ?>
