@@ -66,7 +66,7 @@
 			<ul>
 			   <li id="menu_first_item" <?php print ($parent==10 ? 'class="current_page_item"' : ''); ?>><a href='/about/' title='About' class=''>About</a></li>
 				<li <?php print ($parent==211 ? 'class="current_page_item"' : ''); ?>><a href='/attend/' title='Attend' class=''>Attend</a></li>
-				<li class="page_item"><a href='/proposals/' title='Proposals' class=''>Proposals</a></li>
+				<li class="page_item"><a href='/sessions/' title='Sessions' class=''>Sessions</a></li>
 				<li <?php print ($parent==56 ? 'class="current_page_item"' : ''); ?>><a href="/volunteer/" title="Volunteer">Get Involved</a></li>
 				<li <?php print ($parent==173 ? 'class="current_page_item"' : ''); ?>><a href="/sponsors/" title="Sponsors">Sponsors</a></li>
 				<li <?php print (!is_page() ? 'class="current_page_item"' : ''); ?>><a href="/blog">Blog</a></li>
