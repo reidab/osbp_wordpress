@@ -37,6 +37,10 @@ Template Name: Front Page
                Registration is only <strong>$250</strong> for three days.
                <a href='/attend' class='register-button'>Register Today</a>
             </div>
+            <div class='hotel-callout'>
+               Rooms start at just <strong>$139</strong>/night.
+               <a href='/attend' class='book-room-button'>Book Your Room</a>
+            </div>
          </div>
          <div id="frontpage_content">
             <?php the_content(); ?>
