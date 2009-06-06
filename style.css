@@ -16,7 +16,7 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blank slate, starter t
 /* @group Blog Styles */
 
 .entry-title,.entry-meta,.entry-content {
-	clear: both;
+	clear: left;
 }
 
 div.entry-date {
@@ -192,7 +192,7 @@ div.sidebar input#s {
 }
 
 #frontpage_blog {
-	clear: both;
+	clear: left;
 	background: #fff;
 	padding: 10px;
 	width: 760px;
@@ -213,4 +213,16 @@ table.sponsors td {
 	width: 50%;
 	text-align: center;
 	padding: 1em 0;
+}
+
+#sponsors-callout {
+	margin: 0 0 2em;
+}
+
+#sponsors-callout ul {
+	margin: 0 0 1em 0;
+}
+
+#sponsors-callout li {
+	list-style: none;
 }
