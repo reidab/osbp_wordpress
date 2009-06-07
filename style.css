@@ -226,3 +226,33 @@ table.sponsors td {
 #sponsors-callout li {
 	list-style: none;
 }
+
+#frontpage-countdown {
+	background: #a05cda;
+	color: #fff;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 1.5em;
+}
+
+#frontpage-countdown h3 {
+	font-weight: bold;
+	color: #fff;
+}
+
+#frontpage-countdown a.register-button,
+#frontpage-countdown a.register-button:link,
+#frontpage-countdown a.register-button:visited,
+#frontpage-countdown a.register-button:active {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	padding: .5em;
+	background: #7c47a9;
+	color: #fff;
+	text-decoration: none;
+	width: 120px;
+	position: absolute;
+	right: 1em;
+	top: 0;
+}

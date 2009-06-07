@@ -61,6 +61,26 @@ Template Name: Front Page
             </div>
          </div>
          <div id="frontpage_content">
+            <div id='frontpage-countdown'>
+               <h3>Open Source Bridge is almost here!</h3>
+               <a href='/attend' class='register-button'>Register Today</a>
+               <div id='countdown-timer'></div>
+               
+               <script type="text/javascript" charset="utf-8">
+                   $(function() {
+                     go_time = new Date("17 Jun 2009 16:00:00 GMT");
+                     $('#countdown-timer').countdown({
+                       until: go_time,
+                       layout: '<strong>{dn}</strong> {dl}, <strong>{hn}</strong> {hl}, <strong>{mn}</strong> {ml}, and <strong>{sn}</strong> {sl}',
+                       alwaysExpire: true,
+                       expiryText: ' ',
+                       onExpiry: function() {
+                         $('#frontpage-countdown h3').html('Open Source Bridge is here!');
+                       }
+                     })
+                   })
+                </script>
+            </div>
             <?php the_content(); ?>
          </div>
       </div>
