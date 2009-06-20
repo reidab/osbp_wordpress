@@ -44,7 +44,6 @@
             <h2>The conference for open source citizens</h2>
             <p id='conference-date-location'>June 17&ndash;19, 2009 <span class='separator'>|</span> Portland, Oregon</p>
          </div>
-         <a href='/attend' title='Register today!' id="header-reg-now">Register today!</a>
       </div>
    </div><!--  #header -->
 
