@@ -54,24 +54,11 @@ Template Name: Front Page
          </div>
          <div id="frontpage_content">
             <div id='frontpage-countdown'>
-               <h3>Open Source Bridge is almost here!</h3>
-               <a href='/attend' class='register-button'>Register Today</a>
-               <div id='countdown-timer'></div>
-               
-               <script type="text/javascript" charset="utf-8">
-                   $(function() {
-                     go_time = new Date("17 Jun 2009 16:00:00 GMT");
-                     $('#countdown-timer').countdown({
-                       until: go_time,
-                       layout: '<strong>{dn}</strong> {dl}, <strong>{hn}</strong> {hl}, <strong>{mn}</strong> {ml}, and <strong>{sn}</strong> {sl}',
-                       alwaysExpire: true,
-                       expiryText: ' ',
-                       onExpiry: function() {
-                         $('#frontpage-countdown h3').html('Open Source Bridge is here!');
-                       }
-                     })
-                   })
-                </script>
+               <h3>Open Source Bridge 2009 is over.</h3>
+               <p>
+                Thanks to the attendees, speakers, volunteers, sponsors, and organizers who helped make our first year a success. If you took part, please take a moment to fill out our attendee survey so we can make Open Source Bridge 2010 even more amazing.
+               </p>
+               <a href='/survey' class='register-button'>Take the Survey</a>
             </div>
             <?php the_content(); ?>
          </div>
