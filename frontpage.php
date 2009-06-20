@@ -33,14 +33,6 @@ Template Name: Front Page
             
          </div>
          <div id="frontpage_callouts">
-            <div class='register-callout'>
-               Registration is only <strong>$250</strong> for three days.
-               <a href='/attend' class='register-button'>Register Today</a>
-            </div>
-            <div class='hotel-callout'>
-               Rooms start at just <strong>$139</strong>/night.
-               <a href='/attend' class='book-room-button'>Book Your Room</a>
-            </div>
             <div id='sponsors-callout'>
               <h3>Sponsors</h3>
               <h4>Committers</h4>
