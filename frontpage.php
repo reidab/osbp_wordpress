@@ -56,9 +56,8 @@ Template Name: Front Page
             <div id='frontpage-countdown'>
                <h3>Open Source Bridge 2009 is over.</h3>
                <p>
-                Thanks to the attendees, speakers, volunteers, sponsors, and organizers who helped make our first year a success. If you took part, please take a moment to fill out our attendee survey so we can make Open Source Bridge 2010 even more amazing.
+                Thanks to the attendees, speakers, volunteers, sponsors, and organizers who helped make our first year a success!
                </p>
-               <a href='/survey' class='register-button'>Take the Survey</a>
             </div>
             <?php the_content(); ?>
          </div>
