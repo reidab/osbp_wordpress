@@ -20,7 +20,7 @@
 
 -->
 <head profile="http://gmpg.org/xfn/11">
-   <title><?php wp_title( '/', true, 'right' ); ?>Open Source Bridge: The conference for open source citizens / June 17-19, 2009 / Portland, OR</title>
+   <title><?php wp_title( '/', true, 'right' ); ?>Open Source Bridge: The conference for open source citizens / June 1-4, 2010 / Portland, OR</title>
    <meta http-equiv="content-type" content="<?php bloginfo('html_type') ?>; charset=<?php bloginfo('charset') ?>" />
    <link rel="stylesheet" type="text/css" href="http://opensourcebridge.org/common/osbp_common_v3.css" />
    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url') ?>" />
@@ -42,7 +42,7 @@
          <h1 id="site-title"><span><a href="<?php bloginfo('home') ?>/" title="<?php echo wp_specialchars( get_bloginfo('name'), 1 ) ?>" rel="home"><?php bloginfo('name') ?></a></span></h1>
          <div id="site-description">
             <h2>The conference for open source citizens</h2>
-            <p id='conference-date-location'>June 17&ndash;19, 2009 <span class='separator'>|</span> Portland, Oregon</p>
+            <p id='conference-date-location'>June 1&ndash;4, 2010 <span class='separator'>|</span> Portland, Oregon</p>
          </div>
       </div>
    </div><!--  #header -->
