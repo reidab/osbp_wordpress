@@ -1,6 +1,6 @@
 
 	<div id="footer">
-	   &copy; 2008&ndash;2009 Open Source Bridge Foundation | <a href='/contact-us'>Contact Us</a>
+		&copy; 2008&ndash;<?php echo date('Y'); ?> Open Source Bridge Foundation | <a href='/contact-us'>Contact Us</a>
 	</div><!-- #footer -->
 
 </div><!-- #wrapper .hfeed -->
