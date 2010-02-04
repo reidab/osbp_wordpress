@@ -37,7 +37,7 @@ Template Name: Front Page
               <h3>2009 Sponsors</h3>
               <h4>Committers</h4>
               <ul>
-                <li><a href='http://developer.yahoo.com/'><img src="<?php bloginfo('template_directory'); ?>/i/sponsors/yahoodn.png" alt='Yahoo! Developers Network' /></li>
+                <li><a href='http://developer.yahoo.com/'><img src="<?php bloginfo('template_directory'); ?>/i/sponsors/yahoodn.png" alt='Yahoo! Developers Network' /></a></li>
                 <li><a href='http://cubespacepdx.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/cubespace.png' alt='CubeSpace' /></a></li>
                 <li><a href='http://networkredux.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/networkredux.png' alt='Network Redux' /></a></li>
                 <li><a href='http://travelcommand.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/travelcommand.png' alt='Travel Command' /></a></li>
@@ -45,8 +45,8 @@ Template Name: Front Page
               <h4>Advocates</h4>
               <ul>
                 <li><a href='http://google.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/google.png' alt='Google' /></a></li>
-                <li><a href='http://mozilla.org/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/mozilla.png' alt='mozilla'></a></li>
-                <li><a href='http://web.sourceforge.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/sourceforge.png'></a></li>
+                <li><a href='http://mozilla.org/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/mozilla.png' alt='mozilla' /></a></li>
+                <li><a href='http://web.sourceforge.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/sourceforge.png' alt='sourceforge' /></a></li>
                 <li><a href='http://www.webtrends.com/products.aspx?cid=70140000000I4sO'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/webtrends.png' alt='WebTrends' /></a></li>
               </ul>
               <a href='/sponsors'>View More Sponsors</a>
