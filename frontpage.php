@@ -56,7 +56,7 @@ Template Name: Front Page
             <div id='frontpage-countdown'>
                <h3>Open Source Bridge 2010 is coming!</h3>
                <p>
-                We've just kicked off planning for Open Source Bridge 2010. Want to help? <br /><a href='http://groups.google.com/group/osbridge' style='color:#fff; font-weight: bold;'>Join our planning list.</a>
+                We've just kicked off planning for Open Source Bridge 2010. Want to help? <br />Complete our <a href='http://opensourcebridge.org/get-involved/' style='color:#fff; font-weight: bold;'>Volunteer Interest Form</a> and then <a href='http://groups.google.com/group/osbridge' style='color:#fff; font-weight: bold;'>Join our planning list.</a>
                </p>
             </div>
             <?php the_content(); ?>
