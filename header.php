@@ -22,7 +22,13 @@
 <head profile="http://gmpg.org/xfn/11">
    <title><?php wp_title( '/', true, 'right' ); ?>Open Source Bridge: The conference for open source citizens / June 1-4, 2010 / Portland, OR</title>
    <meta http-equiv="content-type" content="<?php bloginfo('html_type') ?>; charset=<?php bloginfo('charset') ?>" />
-   <link rel="stylesheet" type="text/css" href="http://opensourcebridge.org/common/osbp_common_v3.css" />
+   <link rel="stylesheet" type="text/css" href="<?php
+     $my_common_styles_url_file = dirname(__FILE__) . "/my_common_styles_url.txt";
+     if (file_exists($my_common_styles_url_file)) {
+         include $my_common_styles_url_file;
+     } else {
+         echo 'http://opensourcebridge.org/common/osbp_common_v3.css';
+     }; ?>" />
    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url') ?>" />
 <?php wp_head() // For plugins ?>
    <link rel="alternate" type="application/rss+xml" href="<?php bloginfo('rss2_url') ?>" title="<?php printf( __( '%s latest posts', 'sandbox' ), wp_specialchars( get_bloginfo('name'), 1 ) ) ?>" />
