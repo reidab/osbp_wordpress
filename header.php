@@ -53,7 +53,7 @@
 
     <!-- #header_fragment BEGIN -->
     <?php require_once 'shared_fragments.php'; ?>
-<?php echo_shared_fragment('header_current'); ?>
+    <?php require_shared_fragment('header_current'); ?>
     <!-- #header_fragment END -->
 
     <?php

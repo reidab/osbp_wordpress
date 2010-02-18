@@ -11,8 +11,8 @@
 # function, or raise a SharedFragmentNotFoundException if one isn't
 # found.
 #
-# Echo a fragment's contents into the stream with "echo_shared_fragment",
-# or echo a descriptive message explaining what went wrong.
+# Require a fragment's contents with "require_shared_fragment", which
+# will display a helpful debugging message if something went wrong.
 
 # Directory with the shared fragments.
 define(SHARED_FRAGMENTS_DIRECTORY, dirname(__FILE__) . "/shared_fragments");
@@ -42,8 +42,8 @@ class SharedFragmentNotFoundException extends Exception {
     }
 }
 
-# Echo the shared fragment for $name or a helpful error message.
-function echo_shared_fragment($name) {
+# Display the shared fragment for $name or a helpful error message.
+function require_shared_fragment($name) {
     try {
         echo read_shared_fragment($name);
     } catch (SharedFragmentNotFoundException $e) {
