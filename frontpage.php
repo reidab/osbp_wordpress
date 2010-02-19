@@ -54,9 +54,11 @@ Template Name: Front Page
          </div>
          <div id="frontpage_content">
             <div id='frontpage-countdown'>
-               <h3>Open Source Bridge 2010 is coming!</h3>
+               <h3>2010 Call for Proposals is open!</h3>
                <p>
-                We've just kicked off planning for Open Source Bridge 2010. Want to help? <br />Complete our <a href='http://opensourcebridge.org/get-involved/' style='color:#fff; font-weight: bold;'>Volunteer Interest Form</a> and then <a href='http://groups.google.com/group/osbridge' style='color:#fff; font-weight: bold;'>Join our planning list.</a>
+                We would love to hear all of those interesting ideas you have in your head---and so would everyone else. That's why we will be accepting your proposals for Open Source Bridge through March 18.
+
+                <a href='http://opensourcebridge.org/call-for-proposals/' class='button'>View the Call for Proposals</a>
                </p>
             </div>
             <?php the_content(); ?>

@@ -228,7 +228,7 @@ table.sponsors td {
 }
 
 #frontpage-countdown {
-	background: #a05cda;
+	background: #4DA694;
 	color: #fff;
 	padding: 10px;
 	position: relative;
@@ -240,15 +240,15 @@ table.sponsors td {
 	color: #fff;
 }
 
-#frontpage-countdown a.register-button,
-#frontpage-countdown a.register-button:link,
-#frontpage-countdown a.register-button:visited,
-#frontpage-countdown a.register-button:active {
+#frontpage-countdown a.button,
+#frontpage-countdown a.button:link,
+#frontpage-countdown a.button:visited,
+#frontpage-countdown a.button:active {
 	display: block;
 	text-align: center;
 	font-weight: bold;
 	padding: .5em;
-	background: #7c47a9;
+	background: #3E8577;
 	color: #fff;
 	text-decoration: none;
 	width: 120px;
