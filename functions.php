@@ -489,6 +489,15 @@ function sandbox_widgets_init() {
 	wp_register_widget_control( 'rss_links', __( 'RSS Links', 'sandbox' ), 'widget_sandbox_rsslinks_control' );
 }
 
+function the_title_or_headline($post) {
+  $headline = get_post_meta($post->ID, "headline", true);
+  if($headline) {
+    echo $headline;
+  } else {
+    the_title();
+  }
+}
+
 // Translate, if applicable
 load_theme_textdomain('sandbox');
 

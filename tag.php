@@ -1,6 +1,5 @@
 <?php get_header() ?>
 
-	<div id="container">
 		<div id="content">
 
 			<h2 class="page-title"><?php _e( 'Tag Archives:', 'sandbox' ) ?> <span><?php single_tag_title() ?></span></h2>
@@ -42,7 +41,6 @@
 
 		</div><!-- #content -->
 		<?php get_sidebar() ?>
-	</div><!-- #container -->
 
 
 <?php get_footer() ?>

@@ -66,19 +66,9 @@
       }
     ?>
 
-    <div id="subnav" class='navbar'>
-       <div class='inner_container'>
+	<div id="container">
+    <div id="section_title">
        <h2><?php echo $section_title ?></h2>
-
-    <?php if($parent && wp_list_pages("title_li=&child_of=$parent&echo=0" )): ?>
-       <ul>
-          <li class="page_item<?php echo ($wp_query->post->ID == $parent) ? ' current_page_item' : '' ?>">
-             <a href="<?php echo get_permalink($parent) ?>" title="<?php echo $section_title ?>">Overview</a>
-          </li>
-          <?php wp_list_pages("title_li=&child_of=$parent" ); ?>
-       </ul>
-    <?php endif; ?>
-       </div>
     </div>
     <?php } ?>
 <!-- #header -->

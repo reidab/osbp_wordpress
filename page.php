@@ -1,14 +1,12 @@
 <?php get_header() ?>
 
-	<div id="container">
 		<div id="content">
 
 <?php the_post() ?>
 
 			<div id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
-				<?php if(!empty($wp_query->post->post_parent)) { ?>
-				<h2 class="entry-title"><?php the_title() ?></h2>
-				<?php } ?>
+				<h2 class="page_title"><?php the_title_or_headline($post) ?></h2>
+				
 				<div class="entry-content">
 <?php the_content() ?>
 
@@ -23,7 +21,6 @@
 
 		</div><!-- #content -->
 		<?php get_sidebar() ?>
-	</div><!-- #container -->
 
 
 <?php get_footer() ?>

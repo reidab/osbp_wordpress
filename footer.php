@@ -1,3 +1,4 @@
+	</div><!-- #container -->
 
 	<div id="footer">
 		&copy; 2008&ndash;<?php echo date('Y'); ?> Open Source Bridge Foundation | <a href='/contact-us'>Contact Us</a>

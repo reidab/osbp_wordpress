@@ -1,5 +1,15 @@
 	<div id="primary" class="sidebar">
 		<ul class="xoxo">
+		  <?php if($parent && wp_list_pages("title_li=&child_of=$parent&echo=0" )): ?>
+		    <li id='subnav'>
+           <ul>
+              <li class="page_item<?php echo ($wp_query->post->ID == $parent) ? ' current_page_item' : '' ?>">
+                 <a href="<?php echo get_permalink($parent) ?>" title="<?php echo $section_title ?>">Overview</a>
+              </li>
+              <?php wp_list_pages("title_li=&child_of=$parent" ); ?>
+           </ul>
+         </li>
+      <?php endif; ?>
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(1) ) : // begin primary sidebar widgets ?>
 
 			<li id="pages">

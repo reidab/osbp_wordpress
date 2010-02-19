@@ -1,6 +1,5 @@
 <?php get_header() ?>
 
-	<div id="container">
 		<div id="content">
 
 			<div id="nav-above" class="navigation">
@@ -40,6 +39,5 @@
 
 		</div><!-- #content -->
 		<?php get_sidebar() ?>
-	</div><!-- #container -->
 
 <?php get_footer() ?>
