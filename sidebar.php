@@ -1,5 +1,6 @@
 <div id="primary" class="sidebar">
   <ul class="xoxo">
+    <?php global $parent; ?>
     <?php if($parent && wp_list_pages("title_li=&child_of=$parent&echo=0" )): ?>
       <li id='subnav'>
         <ul>

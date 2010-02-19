@@ -44,6 +44,7 @@
 <div id="wrapper" class="hfeed">
    <?php
      global $wp_query;
+     global $parent;
      if( empty($wp_query->post->post_parent) ) {
         $parent = $wp_query->post->ID;
      } else {
