@@ -256,3 +256,7 @@ table.sponsors td {
 	right: 1em;
 	top: 0;
 }
+
+div.sidebar ul.soc li.pre-bulletted {
+  left: 0;
+}
