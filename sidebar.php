@@ -2,7 +2,7 @@
   <ul class="xoxo">
     <?php global $parent; ?>
     <?php if($parent && wp_list_pages("title_li=&child_of=$parent&echo=0" )): ?>
-      <li id='subnav'>
+      <li>
         <ul>
             <li class="page_item<?php echo ($wp_query->post->ID == $parent) ? ' current_page_item' : '' ?>">
               <a href="<?php echo get_permalink($parent) ?>" title="<?php echo $section_title ?>">Overview</a>
