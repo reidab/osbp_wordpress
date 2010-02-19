@@ -68,7 +68,7 @@
     ?>
 
 	<div id="container">
-    <div id="section_title">
+    <div class="section_title">
        <h2><?php echo $section_title ?></h2>
     </div>
     <?php } ?>
