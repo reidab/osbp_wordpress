@@ -54,7 +54,14 @@
 
     <!-- #header_fragment BEGIN -->
     <?php require_once 'shared_fragments.php'; ?>
-    <?php require_shared_fragment('header_current'); ?>
+    <?php
+      $event_slug = get_post_meta($wp_query->post->ID, 'event_slug', true);
+      if($event_slug) {
+        require_shared_fragment("header_{$event_slug}");
+      } else {
+        require_shared_fragment('header_current');
+      }
+    ?>
     <!-- #header_fragment END -->
 
     <?php
