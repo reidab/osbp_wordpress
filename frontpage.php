@@ -41,6 +41,10 @@ Template Name: Front Page
                 <li><a href='http://www.google.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/google.png' alt='Google' /></a></li>
                 <li><a href='http://www.rackspacecloud.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/rackspacecloud.png' alt='Rackspace Cloud' /></a></li>
               </ul>
+              <h4>Hosting</h4>
+              <ul>
+                <li><a href='http://networkredux.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/networkredux.png' alt='Network Redux' /></a></li>
+              </ul>
               <a href='/sponsors'>View More Sponsors</a>
             </div>
          </div>
