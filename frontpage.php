@@ -50,11 +50,11 @@ Template Name: Front Page
          </div>
          <div id="frontpage_content">
             <div id='frontpage-countdown'>
-               <h3>2010 Call for Proposals is open!</h3>
+               <h3>Early bird pricing ends soon!</h3>
                <p>
-                We would love to hear all of those interesting ideas you have in your head---and so would everyone else. That's why we will be accepting your proposals for Open Source Bridge through March 29.
+                Purchase your conference pass before April 1st and save $75! Just <strong>$225</strong> for four whole days of open source goodness.
 
-                <a href='http://opensourcebridge.org/call-for-proposals/' class='button'>View the Call for Proposals</a>
+                <a href='http://osbridge.eventbrite.com/' class='button'>Register Now</a>
                </p>
             </div>
             <?php the_content(); ?>
