@@ -52,7 +52,7 @@ Template Name: Front Page
             <div id='frontpage-countdown'>
                <h3>Early bird pricing ends soon!</h3>
                <p>
-                Purchase your conference pass before April 1st and save $75! <br \>Just <strong>$225</strong> for four whole days of open source goodness.
+                Purchase your conference pass before the end of April 1st and save $75! <br \>Just <strong>$225</strong> for four whole days of open source goodness.
 
                 <a href='http://osbridge.eventbrite.com/' class='button'>Register Now</a>
                </p>
