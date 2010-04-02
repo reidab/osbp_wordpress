@@ -50,11 +50,11 @@ Template Name: Front Page
          </div>
          <div id="frontpage_content">
             <div id='frontpage-countdown'>
-               <h3>Early bird pricing ends soon!</h3>
+               <h3>You're coming, right?</h3>
                <p>
-                Purchase your conference pass before the end of April 1st and save $75! <br \>Just <strong>$225</strong> for four whole days of open source goodness.
-
-                <a href='http://osbridge.eventbrite.com/' class='button'>Register Now</a>
+                    Purchase your conference pass today to be a part
+                    of four amazing days of open source goodness.
+                    <a href='http://osbridge.eventbrite.com/' class='button'>Register Now</a>
                </p>
             </div>
             <?php the_content(); ?>
