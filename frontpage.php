@@ -35,6 +35,10 @@ Template Name: Front Page
          <div id="frontpage_callouts">
             <div id='sponsors-callout'>
               <h3>2010 Sponsors</h3>
+              <h4>Committers</h4>
+              <ul>
+                <li><a href='http://www.mozilla.com'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/mozilla.170.png' alt='Mozilla' /></a></li>
+              </ul>
               <h4>Advocates</h4>
               <ul>
                 <li><a href='http://www.facebook.com/'><img src='<?php bloginfo('template_directory'); ?>/i/sponsors/facebook.png' alt='Facebook' /></a></li>
