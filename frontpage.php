@@ -54,10 +54,10 @@ Template Name: Front Page
          </div>
          <div id="frontpage_content">
             <div id='frontpage-countdown'>
-               <h3>Open Source Bridge 2010 is over!</h3>
+               <h3>Registration for Open Source Bridge 2011 is now open!</h3>
                <p>
-                    Thanks for helping make Open Source Bridge 2010 a truly
-                    great event. Want to help us plan the 2011 event? <a href='http://groups.google.com/group/osbridge' style='text-decoration: underline; color: #fff;'>Join our planning group!</a>
+                    A limited number of early-bird $175 tickets are available now!
+                    Want to help us plan the 2011 event? <a href='http://groups.google.com/group/osbridge' style='text-decoration: underline; color: #fff;'>Join our planning group!</a>
                </p>
             </div>
             <?php the_content(); ?>
