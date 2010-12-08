@@ -54,9 +54,9 @@ Template Name: Front Page
          </div>
          <div id="frontpage_content">
             <div id='frontpage-countdown'>
-               <h3>Registration for Open Source Bridge 2011 is now open!</h3>
+               <h3>Open Source Bridge 2011: Registration now open!</h3>
                <p>
-                    A limited number of early-bird $175 tickets are available now!
+                    A limited number of early-bird $175 tickets are available now!<br />
                     Want to help us plan the 2011 event? <a href='http://groups.google.com/group/osbridge' style='text-decoration: underline; color: #fff;'>Join our planning group!</a>
                </p>
             </div>
