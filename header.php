@@ -20,7 +20,7 @@
 
 -->
 <head profile="http://gmpg.org/xfn/11">
-   <title><?php wp_title( '/', true, 'right' ); ?>Open Source Bridge: The conference for open source citizens / June 1-4, 2010 / Portland, OR</title>
+   <title><?php wp_title( '/', true, 'right' ); ?>Open Source Bridge: The conference for open source citizens / June 21-24, 2011 / Portland, OR</title>
    <meta http-equiv="content-type" content="<?php bloginfo('html_type') ?>; charset=<?php bloginfo('charset') ?>" />
    <link rel="stylesheet" type="text/css" href="<?php
      $my_common_styles_url_file = dirname(__FILE__) . "/my_common_styles_url.txt";
