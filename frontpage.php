@@ -56,7 +56,7 @@ Template Name: Front Page
             <div id='frontpage-countdown'>
                <h3>Registration for 2011 is now open!</h3>
                <p>
-                    A limited number of early-bird $175 tickets are available now!<br />
+                    A limited number of early-bird $195 tickets are available now!<br />
                     Want to help us plan the 2011 event? <a href='http://groups.google.com/group/osbridge' style='text-decoration: underline; color: #fff;'>Join our planning group!</a>
 
                     <a href='http://osbridge.eventbrite.com/' class='button'>Register Now</a>
