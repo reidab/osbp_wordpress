@@ -56,7 +56,7 @@ Template Name: Front Page
             <div id='frontpage_cfp_callout'>
                <h3>Call for presentation proposals is open!</h3>
                <p>
-                    <a href='http://opensourcebridge.org/call-for-proposals/' class='button'>Submit Yours Now</a>
+                    <a href='http://opensourcebridge.org/call-for-proposals/' class='button'>Submit Now</a>
                </p>
             </div>
             <div id='frontpage_register_callout'>
