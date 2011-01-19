@@ -227,23 +227,34 @@ table.sponsors td {
 	list-style: none;
 }
 
-#frontpage-countdown {
-	background: #4DA694;
+#frontpage_register_callout,
+#frontpage_cfp_callout {
 	color: #fff;
 	padding: 30px 10px 10px;
 	position: relative;
 	margin-bottom: 1.5em;
 }
+#frontpage_register_callout {
+	background: #4DA694;
+}
+#frontpage_cfp_callout {
+	background: #A05CDA;
+}
 
-#frontpage-countdown h3 {
+#frontpage_register_callout h3,
+#frontpage_cfp_callout h3 {
 	font-weight: bold;
 	color: #fff;
 }
 
-#frontpage-countdown a.button,
-#frontpage-countdown a.button:link,
-#frontpage-countdown a.button:visited,
-#frontpage-countdown a.button:active {
+#frontpage_register_callout a.button,
+#frontpage_register_callout a.button:link,
+#frontpage_register_callout a.button:visited,
+#frontpage_register_callout a.button:active,
+#frontpage_cfp_callout a.button,
+#frontpage_cfp_callout a.button:link,
+#frontpage_cfp_callout a.button:visited,
+#frontpage_cfp_callout a.button:active {
 	display: block;
 	text-align: center;
 	font-weight: bold;
@@ -251,10 +262,23 @@ table.sponsors td {
 	background: #3E8577;
 	color: #fff;
 	text-decoration: none;
-	width: 120px;
+	width: 100px;
 	position: absolute;
 	right: 1em;
 	top: 0;
+}
+
+#frontpage_register_callout a.button,
+#frontpage_register_callout a.button:link,
+#frontpage_register_callout a.button:visited,
+#frontpage_register_callout a.button:active {
+	background: #3E8577;
+}
+#frontpage_cfp_callout a.button,
+#frontpage_cfp_callout a.button:link,
+#frontpage_cfp_callout a.button:visited,
+#frontpage_cfp_callout a.button:active {
+	background: #7C47A9;
 }
 
 div.sidebar ul.soc li.pre-bulletted {
