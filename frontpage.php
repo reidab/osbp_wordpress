@@ -9,7 +9,7 @@ Template Name: Front Page
          <h2>Connecting developers across projects, languages, and backgrounds.</h2>
          <div id="frontpage_sidebar">
             <p id="conference-summary">
-               <strong>Open Source Bridge</strong> is a new conference for developers working with open source technologies and for people interested in learning the open source way.
+               <strong>Open Source Bridge</strong> is a conference for developers working with open source technologies and for people interested in learning the open source way.
             </p>
             <ul class='soc'>
                <li class='pre-bulletted'><a href='http://twitter.com/osbridge' title='@osbridge on twitter' class='twitter chicklet'>Twitter</a></li>
